@@ -4,9 +4,9 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "tinacms dev -c \"astro dev\"",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "preview": "astro preview",
+    "start": "tinacms dev",
+    "build": "tinacms check && tinacms build",
+    "preview": "tinacms preview",
     "astro": "astro"
   },
   "dependencies": {
